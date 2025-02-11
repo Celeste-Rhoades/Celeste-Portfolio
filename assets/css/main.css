@@ -193,7 +193,16 @@ textarea {
 body {
   -ms-overflow-style: scrollbar;
 }
+.video {
+  width: 100%; /* Make it responsive */
+  max-width: 500px; /* Adjust as needed */
+  height: 350px; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures uniform cropping */
+}
 
+.grand {
+  max-width: 500px; /* Same max width as others */
+}
 @media screen and (max-width: 480px) {
   html,
   body {
